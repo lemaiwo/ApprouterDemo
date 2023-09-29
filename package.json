@@ -25,7 +25,9 @@
   },
   "cds": {
     "requires": {
-      "auth": "xsuaa"
+      "auth": {
+        "kind": "xsuaa"
+      }
     }
   }
 }
