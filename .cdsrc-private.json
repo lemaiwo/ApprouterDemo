@@ -1,0 +1,21 @@
+{
+  "requires": {
+    "[hybrid]": {
+      "auth": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.eu10-004.hana.ondemand.com",
+          "org": "bewlcloudfoundry",
+          "space": "dev",
+          "instance": "test-xsuaa-srv",
+          "key": "test-xsuaa-srv-key",
+          "resolved": false
+        },
+        "kind": "xsuaa",
+        "vcap": {
+          "name": "auth"
+        }
+      }
+    }
+  }
+}
