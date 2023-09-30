@@ -1,10 +1,13 @@
 {
+  "tenant-mode": "dedicated",
   "scopes": [],
   "attributes": [],
   "role-templates": [],
   "oauth2-configuration": {
     "redirect-uris": [
+      "https://*.hana.ondemand.com/**",
       "https://*.eu10.applicationstudio.cloud.sap/**",
+      "http://*.eu10.applicationstudio.cloud.sap/**",
       "https://*.us10.trial.applicationstudio.cloud.sap/**",
       "http://localhost:*/**"
     ]

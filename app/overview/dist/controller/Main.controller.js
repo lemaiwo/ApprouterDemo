@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";var n=e.extend("be.wl.books.overview.controller.Main",{onInit:function e(){}});return n});
+//# sourceMappingURL=Main.controller.js.map

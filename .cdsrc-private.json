@@ -4,16 +4,31 @@
       "auth": {
         "binding": {
           "type": "cf",
-          "apiEndpoint": "https://api.cf.eu10-004.hana.ondemand.com",
-          "org": "bewlcloudfoundry",
-          "space": "dev",
-          "instance": "test-xsuaa-srv",
-          "key": "test-xsuaa-srv-key",
+          "apiEndpoint": "https://api.cf.eu20-001.hana.ondemand.com",
+          "org": "wlcf",
+          "space": "development",
+          "instance": "demo-bind-xsuaa-srv",
+          "key": "demo-bind-xsuaa-srv-key",
           "resolved": false
         },
         "kind": "xsuaa",
         "vcap": {
           "name": "auth"
+        }
+      },
+      "db": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.eu20-001.hana.ondemand.com",
+          "org": "wlcf",
+          "space": "development",
+          "instance": "demo-bind-db",
+          "key": "demo-bind-db-key",
+          "resolved": false
+        },
+        "kind": "hana-cloud",
+        "vcap": {
+          "name": "db"
         }
       }
     }

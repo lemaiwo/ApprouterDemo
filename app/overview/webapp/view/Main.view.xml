@@ -1,0 +1,18 @@
+<mvc:View controllerName="be.wl.books.overview.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+           <List id="bookList"
+                headerText="Booksd"
+                headerLevel="H2"
+                items="{
+                    path: '/Books'
+                }" >
+                <StandardListItem
+                    title="{title}"
+                    counter="{stock}"/>
+            </List>
+        </content>
+    </Page>
+</mvc:View>

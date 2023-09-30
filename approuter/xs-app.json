@@ -1,0 +1,6 @@
+{
+  "authenticationMethod": "route",
+  "routes": [
+  ],
+  "welcomeFile": "/bewlbooksoverview"
+}
