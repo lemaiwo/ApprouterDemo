@@ -7,6 +7,6 @@ export default class Main extends Controller {
 
     /*eslint-disable @typescript-eslint/no-empty-function*/
     public onInit(): void {
-        alert("hell");
+        alert("hello Peter");
     }
 }
